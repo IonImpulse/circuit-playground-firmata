@@ -1,0 +1,12 @@
+[package]
+name = "circuit-playground-firmata"
+version = "0.1.0"
+authors = ["Ethan Vazquez <edv121@outlook.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+firmata = { path = "firmata" }
+serial-unix = "*"
+serial-windows = "*"
